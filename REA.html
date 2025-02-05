@@ -5,11 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Letramento Digital</title>
+    <style>
+        #voltar-ao-inicio {
+            position: fixed;
+            top: 90vh;
+            left: 86vw;
+        }
+
+        #botao-inicio {
+            background-color: #1a1b1b;
+            border: none;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            cursor: pointer;
+            border-radius: 1rem;
+        }
+    </style>
 </head>
 
 <body>
     <section>
-        <h1>
+        <h1 id="inicio">
             Letramento Digital
         </h1>
         <p>
@@ -29,10 +49,43 @@
     <section>
         <h3>Sumário</h3>
         <ol>
+            <li><a href="#organizacao-oficina">Organização de uma oficina</a></li>
             <li><a href="#curso-de-digitacao">Curso de Digitação</a></li>
             <li><a href="#operacao-no-so">Operação no Sistema Operacional</a></li>
             <li><a href="#google-docs">Google Docs</a></li>
         </ol>
+    </section>
+    <hr>
+    <section>
+        <h2 id="organizacao-oficina">Organização de uma oficina</h2>
+        <h3>Antes do início das Oficinas</h3>
+        <p>
+            Para organizar uma oficina de letramento digital, é necessário conhecer seu público alvo e suas
+            necessidades. Portanto, um dos primeiros passos é a realização de uma reunião de alinhamento, considerando
+            as expectativas e objetivos do público alvo.
+        </p>
+        <p>
+            A partir da primeira reunião, é possível definir os conteúdos a serem abordados nas oficinas. É importante
+            que metas realistas sejam estabelecidas, considerando as dificuldades anteriores do público alvo e o tempo
+            disponível.
+        </p>
+        <h3>Execução das oficinas</h3>
+        <p>
+            Para a execução das oficinas, é importante estabelecer metas de conteúdos a serem tratados em cada dia de
+            oficina, contudo, é importante considerar o tempo disponível de oficina e deixar uma sobra de tempo.
+        </p>
+        <p>
+            Essa sobra de tempo é importante pois dúvidas não relacionadas ao conteúdo da oficina podem surgir, e é
+            importante sanar essas dúvidas, pois elas também fazem parte do processo de letramento digital. Entretanto,
+            a oficina inteira não pode se tratar das dúvidas, senão, o caminho do letramento digital torna-se muito
+            tortuoso.
+        </p>
+        <p>
+            Também é importante deixar "tarefas de casa" para o público alvo e incentivar ele a trazer dúvidas nas
+            próximas oficinas, pois dessa forma garante-se que o conteúdo está sendo fixado e que novos assuntos serão
+            explorados.
+        </p>
+
     </section>
     <hr>
     <section>
@@ -48,6 +101,25 @@
                 Fingers</a>. Nele, é possível além de treinar a digitação, verificar a posição correta dos dedos no
             teclado, entre outros artifícios.
         </p>
+        <figure>
+            <img src="img/agile_fingers.png" alt="Tela inicial de uma aula do Agile Fingers" width="80%">
+            <figcaption>Fig. 1 - Tela inicial de uma aula do Agile Fingers. Fonte: Captura própria do site
+                https://agilefingers.com/pt/textos/texto-amostra</figcaption>
+        </figure>
+        <p>
+            A primeira oficina de digitação foi realizada em duas etapas, a primeira parte foi demonstrar o
+            posicionamento ideal das mãos sobre o teclado e exemplos de como chegar às diversas teclas com de forma
+            eficiente. A mão esquerda é posicionada com o dedo indicador em cima da tecla “F”, dedo do meio na tecla
+            “D”, dedo anelar na tecla “S” e dedo mínimo em cima da tecla “A”, o mesmo processo foi feito com a mão
+            direita, com o dedo indicador em cima da tecla “H”, dedo do meio na tecla “J”, dedo anelar na tecla “K” e
+            dedo mínimo em cima da tecla “L”.
+        </p>
+        <p>
+            A partir desse posicionamento, pode-se alcançar com facilidade as teclas principais do teclado, por exemplo,
+            retira-se o dedo indicador da mão esquerda da tecla “F” e pode-se alcançar as teclas “G”, “R”, “V” e “B”, as
+            teclas mais próximas a posição inicial do dedo. A mesma ideia pode ser aplicada para todos os dedos e todas
+            as teclas principais do teclado terão fácil acesso.
+        </p>
     </section>
     <hr>
     <section>
@@ -55,6 +127,13 @@
         <p>A operação de um Sistema Operacional, que permite a Interação Humano-Computador, é de suma importância.</p>
         <section>
             <h3>Alternar Janelas</h3>
+            <figure>
+                <img src="img/barra_tarefas.webp" alt="Barra de tarefas do windows" width="35%">
+                <figcaption>Fig. 2 - Barra de tarefas do Windows, uma das principais formas de alternar entre tarefas.
+                    Fonte: <a
+                        href="https://www.hardware.com.br/wp-content/uploads/static/wp/2022/08/25/28082336713014.webp"
+                        target="_blank">Filememo</a></figcaption>
+            </figure>
             <p>Nesse sentido, uma função útil do sistema operacional Windows é a possibilidade de alternar entre janelas
                 da
                 mesma aplicação ou de aplicações diferentes.</p>
@@ -65,6 +144,11 @@
         </section>
         <section>
             <h3>Dividir a tela</h3>
+            <figure>
+                <img src="img/janela-dividida.jpg" alt="Tela do Windows com janela dividida" width="50%">
+                <figcaption>Fig. 3 - Exemplo de tela dividida no windows. Fonte:
+                    https://www.windowsnoticias.com/wp-content/uploads/2019/10/Pantalla-dividida.jpg</figcaption>
+            </figure>
             <p>Outra função importante de um sistema operacional é de dividir a tela entre várias janelas. Isso é
                 particularmente útil quando, por exemplo, se está fazendo anotações em uma parte da tela, e está se
                 lendo um texto em outra parte tela.</p>
@@ -92,6 +176,12 @@
         </section>
         <section>
             <h3>Desativar o touchpad</h3>
+            <figure>
+                <img src="img/touchpad.webp" alt="Imagem de um touchpad" width="35%">
+                <figcaption>Fig. 4 - Imagem de um touchpad. Fonte:
+                    https://www.techknowable.com/wp-content/uploads/2021/07/Unlock-a-Laptop-Touchpad-scaled.jpg
+                </figcaption>
+            </figure>
             <p>Quando um mouse está conectado no computador, o touchpad se torna desnecessário. Além disso, em momentos
                 de digitação, o touchpad pode ser tocado sem querer, e isso pode gerar efeitos indesejáveis.</p>
             <p>Nesse sentido, o touchpad pode ser desativado.</p>
@@ -106,6 +196,11 @@
     <hr>
     <section>
         <h2 id="google-docs">Google Docs</h2>
+        <figure>
+            <img src="img/google-docs-logo-1.jpg" alt="Logo do Google Docs" width="30%">
+            <figcaption>Fig. 5 - Logo do Google Docs. Fonte:
+                https://www.googlewatchblog.de/wp-content/uploads/google-docs-logo-1.jpg</figcaption>
+        </figure>
         <p>O <a href="https://docs.google.com" target="_blank">Google Docs</a> é um dos editores de texto mais populares
             nos dias de hoje. Ele é gratuito, possui opções básicas e intermediárias de formatação, permite a
             colaboração simultânea entre pessoas num mesmo documento, e armazena os documentos em nuvem.</p>
@@ -131,6 +226,7 @@
                 nas normas da ABNT são úteis para diversas formatações mais simples.</p>
         </section>
     </section>
+    <div id="voltar-ao-inicio"><a id="botao-inicio" href="#inicio">Voltar ao início &#8593;</a></div>
 </body>
 
 </html>
